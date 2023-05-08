@@ -1,0 +1,20 @@
+/* .nav-item{
+    text-color: #f8f4f4;
+} */
+
+#padre{
+    position: relative;
+    /* display: inline-block; */
+}
+
+.card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    bottom: 0;             /* posicionada en la esquina inferior derecha */
+    right: 1rem;
+    color: aliceblue;
+  }
+
+.footer{
+    background:linear-gradient(30deg,grey,royalblue,blue);
+    height: 80px;
+}
